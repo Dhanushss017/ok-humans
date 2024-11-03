@@ -1,0 +1,123 @@
+:root {
+  --black: #000;
+  --lightwhite: #f4f2ee;
+  --primaryblue: #1d344a;
+  --white: #fff;
+  --darkblue: #15364c;
+  --lightblue: #2f6079;
+  --lightcream: #f9f6f4;
+}
+* {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("../fonts/BrandonGrotesque-Medium.otf");
+  src: url("../fonts/BrandonGrotesque-bold.otf");
+  src: url("../fonts/BrandonGrotesque-Regular.otf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.otf");
+}
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fonts/Sofia-ProRegular.otf");
+}
+
+@font-face {
+  font-family: "Sofia Pro bold";
+  src: url("../fonts/Sofia-ProBold.otf");
+}
+@font-face {
+  font-family: "Palmer Lake Print";
+  src: url("../fonts/palmer-lakeprint.otf");
+}
+body,
+h2,
+h3,
+h4 {
+  font-family: "Brandon Grotesque" !important;
+}
+h1,
+h5 {
+  font-family: "Raleway";
+}
+p,
+li {
+  font-family: "Sofia Pro" !important;
+}
+.textitalic {
+  font-family: "Palmer Lake Print";
+}
+button {
+  font-family: "Sofia Pro bold" !important;
+}
+.colorbar {
+  position: absolute;
+  bottom: -3.2%;
+}
+li.nav-item {
+  text-align: center;
+  padding: 18px;
+  background: #fafafa;
+}
+li.nav-item a {
+  color: var(--darkblue);
+}
+
+.headingline::before,
+.headingline::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #9797973b;
+  margin: 0 15px;
+}
+.btn_primary {
+  background-color: #e8d0cd !important;
+  color: var(--darkblue) !important;
+  border-radius: 7px !important;
+  font-size: 15px !important;
+}
+.bgimg img {
+  position: absolute;
+  z-index: 0;
+  left: 4%;
+  top: 4%;
+}
+.storyimg {
+  position: relative;
+  z-index: 1;
+}
+.howworkimg img {
+  height: 130px;
+}
+
+.w-40 {
+  width: 40%;
+}
+.bg_blob {
+  background-image: url(../assets/icons/blob.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0px 8px;
+  line-height: 1.2;
+}
+.gap_2 {
+  gap: 0.8rem;
+}
+.trainingSupport li {
+  color: var(--lightblue);
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-links span{
+  display: block;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+.filter-1{
+  filter: contrast(.5);
+}
