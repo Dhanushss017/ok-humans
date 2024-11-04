@@ -1,16 +1,7 @@
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-   
-  }
-  @media (min-width: 768px) and (max-width: 996px) {
-    
-  }
   @media (min-width: 481px) and (max-width: 767px) {
     .fs-40{
       font-size: 30px;
     }
-    
-    
   }
   @media (min-width: 280px) and (max-width: 359px) {
     .fs-40{
